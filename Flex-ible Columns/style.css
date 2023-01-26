@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.col,.col-2,.col-3{
+    background-color: rgb(38, 129, 129);
+    color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.col{
+    flex:1;
+}
+
+.col-2{
+    flex:2;
+}
+
+.col-3{
+    flex:3;
+}
