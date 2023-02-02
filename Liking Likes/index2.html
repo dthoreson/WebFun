@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes Part 2</title>
+</head>
+<body>
+    <div class="navbar"> <!-- NAVBAR STARTS HERE-->
+        <div class="header-section">
+            <h1>Network</h1>
+        </div>
+    </div>
+    <h1 class="title">Your Feed</h1>
+    <div class="container"> <!-- THIS IS THE BODY CONTAINER-->
+        <div class="left-area"> <!-- THIS IS THE LEFT AVATAR BOX CONTENT-->
+            <img src="images/user-circle.png" alt="profile icon">
+            <a href="#">Add an avatar</a>
+            <h2>James Doe</h2>
+        </div>
+        <div class="right-area">
+            <div class="user-container"> <!-- THIS IS THE CONTAINER FOR THE 3 LIKE BOXES (1)-->
+                <div class="top-section">
+                    <h2>Neil M</h2>
+                    <div class="right-top-section">
+                        <p><span id ="counter1">9</span> like(s)</p>
+                        <button onclick="likes1('#counter1')">Like</button> <!-- USE THIS TO MAKE CLICK INCREASE BY BUTTONCLICK-->
+                    </div>
+                </div>
+                <h3 class="lower-text">I just set up this new discord bot, let me <br>know what you all think.</h3>
+                </div>
+                <div class="user-container"> <!-- THIS IS THE CONTAINER FOR THE 3 LIKE BOXES (2)-->
+                <div class="top-section">
+                    <h2>Nichole K</h2>
+                    <div class="right-top-section">
+                        <p><span id ="counter2">12</span> like(s)</p>
+                        <button onclick="likes2('#counter2')">Like</button> <!-- USE THIS TO MAKE CLICK INCREASE BY BUTTONCLICK-->
+                    </div>
+                </div>
+                <h3 class="lower-text">TJust finished my next comic, check it out.</h3>
+                </div>
+                <div class="user-container"> <!-- THIS IS THE CONTAINER FOR THE 3 LIKE BOXES (3)-->
+                <div class="top-section">
+                    <h2>Jim R</h2>
+                    <div class="right-top-section">
+                        <p><span id ="counter3">9</span> like(s)</p>
+                        <button onclick="likes3('#counter3')">Like</button> <!-- USE THIS TO MAKE CLICK INCREASE BY BUTTONCLICK-->
+                    </div>
+                </div>
+                <h3 class="lower-text">I can't stop listening to the new album. <br>Who else is liking it?</h3>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="navBar"> <!-- THIS IS THE NAVBAR CONTAINER -->
+        <div class="navbarContent"> <!-- THIS IS THE NAVBAR CONTENT -->
+            <h1>Profile</h1>
+            <ul class="navLinks">
+                <li><a class="navlinkcolor" href="#">Home</a></li>
+                <li><a class="navlinkcolor" href="#" id="active">My Profile</a></li>
+                <li><a class="navlinkcolor" href="#">Find Connections</a></li>
+            </ul>
+            <button class="btn">Sign Out</button>
+        </div> <!-- THIS IS THE END OF THE NAVBAR CONTENT -->
+    </div>
+    <div class="mainContainer"> <!--THIS IS THE FULL CONTENT -->
+        <div class="mainContent"> <!--THIS IS THE MAIN CONTENT -->
+            <div class="leftContent"> <!--THIS IS THE LEFT SIDE CONTENT -->
+                <div class="userCardFrame"> <!-- USER CARD STARTS HERE -->
+                    <div class="upperBox">
+                        <img class="img1" src="images/selfie.jpeg" alt="userImg">
+                    </div>
+                    <div class="lowerBox">
+                        <h3 id="userName">Danielle Thoreson</h3>
+                        <img class="img2" src="icons/map-marker.png" alt="Map Marker"><span class="city">Sacramento, CA</span>
+                        <p class="description">Developer | Engineer | Problem Solver</p>
+                        <p class="description">Master of shadows and the Internet!</p>
+                        <img class="img3" src="icons/gear.png" alt="Settings Icon">
+                        <a class="links" id="edit" onclick="updateName('#userName')" href="#">edit profile</a> <!-- WHEN CLICKED, CHANGE USER NAME -->
+                    </div>
+                </div>
+                <div class="userCardFrame_EducationCard"> <!-- THIS IS WHERE THE EDUCATION CARD STARTS -->
+                    <div class="upperBox_Education">
+                        <p class="educationHeader">Education</p>
+                    </div>
+                    <div class="lowerBox_Education">
+                        <h3 id="educationClassName">Coding Dojo Full Stack Bootcamp</h3>
+                        <p id="date">Jan 23 2023 - April 28 2023</p>
+                        <p>Triple black belt in Python, MERN, and C#</p>
+                    </div> <!-- EDUCATION CARD ENDS HERE -->
+                </div>
+            </div>
+            <div class="rightContent"> <!--THIS IS THE RIGHT SIDE CONTENT -->
+                <div class="frame_ConnectReq"> <!-- THIS IS CONNECTION REQUESTS BOX -->
+                    <div class="rightSideHeaders">
+                        <p class="numConnectReq" id="numOfConnecReq">2</p><p class="connectReqHeader">Connection Requests</p>
+                    </div>
+                    <div class="lowerBox_ConnectReq"> 
+                        <div id="todd">
+                            <img class="userImg" src="images/todd-s.jpg" alt="Todd E">
+                            <p class="userNames">Todd E</p> 
+                            <img onclick="removeUser1('#todd')" class="acceptDeclineBtn" src="icons/accept-circle.png" alt="Accept"> <!-- WHEN CLICKED, REMOVE USER FROM LIST -->
+                            <img onclick="removeUser1('#todd')" class="acceptDeclineBtn" src="icons/close-circle.png" alt="Decline"> <!-- WHEN CLICKED, REMOVE USER FROM LIST -->
+                        </div>
+                        <div id="phil">
+                            <img class="userImg" src="images/phil-s.jpg" alt="Phil K">
+                            <p class="userNames">Phil K</p> 
+                            <img onclick="removeUser2('#phil')" class="acceptDeclineBtn" src="icons/accept-circle.png" alt="Accept"> <!-- WHEN CLICKED, REMOVE USER FROM LIST -->
+                            <img onclick="removeUser2('#phil')" class="acceptDeclineBtn" src="icons/close-circle.png" alt="Decline"> <!-- WHEN CLICKED, REMOVE USER FROM LIST -->
+                        </div>
+                    </div>
+                </div>
+                <div class="frame_YourConnects"> <!-- THIS IS THE YOUR CONNECTIONS BOX -->
+                    <div class="rightSideHeaders">
+                        <p class="numYourConnects">500+</p>
+                        <p class="yourConnectsHeader">Your Connections</p>
+                    </div>
+                    <div class="row">
+                        <img class="userImg" src="images/adrien-s.jpg" alt="Adrien D">
+                        <p class="userNames">Adrien D</p> 
+                    </div>
+                    <div class="row">
+                        <img class="userImg" src="images/anne-s.jpg" alt="Anne J">
+                        <p class="userNames">Anne J</p> 
+                    </div>
+                    <div class="row">
+                        <img class="userImg" src="images/alayne-s.jpg" alt="Alayne T">
+                        <p class="userNames">Alayne T</p> 
+                    </div>
+                    <div class="row">
+                        <img class="userImg" src="images/arry-s.jpg" alt="Arry Y">
+                        <p class="userNames">Arry Y</p> 
+                    </div>
+                    <div class="viewMoreSection"> <!-- THIS IS THE VIEW MORE BOX -->
+                        <a class="links" href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+
+</html>

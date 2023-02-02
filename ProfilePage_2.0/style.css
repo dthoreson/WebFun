@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* THIS IS WHERE NAVBAR BEGINS */
+.nav-container{
+    width: auto;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.profile-nav-bar{
+    width: 200px;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-list, .profile-nav-bar{
+    margin-right: 70px;
+    display: flex;
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    height: 70px;
+}
+.sign-out-btn{
+    background-color: #34a2b8;
+    color: white;
+    width: 75px;
+    height: 25px;
+    margin-left: 200px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+/* THIS IS WHERE THE MAIN CONTAINER BEGINS */
+.main-container{
+    background-color: purple;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    display:flex;
+    justify-content: left;
+    /* padding: 40px; */
+}
+/* THIS IS WHERE LEFT COLUMN BEGINS */
+.left-column-area{
+    background-color: pink;
+    height: 800px;
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+/* THIS IS WHERE USER CARD BOX BEGINS */
+.user-card-header{
+    height: 80px;
+    background-color: #34a2b8;
+    border-top: 5px solid lightgrey;
+    border-left: 5px solid lightgrey;
+    border-right: 5px solid lightgrey;
+}
+.selfie{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    position: relative;
+    top:40px;
+    left: 20px;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.location-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.marker-img{
+    height: 15px;
+    width: auto;
+    margin-right: 10px;;
+}
+#city{
+    height: 15px;
+}
+.edit-section{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.user-card-body{
+    padding: 20px;
+    border-bottom: 5px solid lightgrey;
+    border-left: 5px solid lightgrey;
+    border-right: 5px solid lightgrey;
+}
+/* THIS IS WHERE EDUCATION BOX BEGINS */
+.education-header{
+    background-color: grey;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-top: 5px solid lightgrey;
+    border-left: 5px solid lightgrey;
+    border-right: 5px solid lightgrey;
+}
+.education-body{
+    background-color: yellow;
+    height: 150px;
+    border-bottom: 5px solid lightgrey;
+    border-left: 5px solid lightgrey;
+    border-right: 5px solid lightgrey;
+}
+
+
+
+
+
+/* THIS IS WHERE RIGHT COLUMN BEGINS */
+.right-column-area{
+    background-color: blue;
+    margin-top: 40px;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    justify-content:right
+}

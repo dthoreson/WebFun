@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<!-- <body> THIS IS THE NAVBAR -->
+    <div class="navbar-container">
+        <h1 class="nav-header">Dojonary</h1>
+        <input class="search-bar" type="text" name="search" placeholder="Search" >
+        <button class="login-btn" onclick="turnOff(this)">Login</button> <!-- LOGIN BUTTON CHANGES TO LOGOUT/LOGIN WHEN CLICKED!-->
+    </div>
+    <div class="main-content"> <!-- THIS IS EVERYHTING BELOW NAVBAR -->
+        <div class="left-column"> <!-- THIS IS THE LEFT SIDE CONTENT-->
+            <div class="ninja-box"> <!-- THIS IS THE TOP NINJA CONTENT-->
+                <div class="ninja-box-left"> <!-- THIS IS THE NINJA NOUN SECTION #1-->
+                    <h1>ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural: <span><em>ninjas</em></span></p>
+                    <button class="like-btn" onclick="alert('Ninja was liked')"><span>13</span> likes</button> <!-- LIKES BUTTON GENERATES ALERT WHEN CLICKED! -->
+                </div>
+                <div class="ninja-box-right"> <!-- THIS IS THE NINJA NOUN SECTION #2-->
+                    <h3>A practitioner skilled in the <br><span><a href="#">Japanese</a></span> art of <span><a href="#">ninjutsu</a></span></h3>
+                </div>
+            </div>
+            <div class="ninja-box"> <!-- THIS IS THE BOTTOM NINJA CONTENT-->
+                <div class="ninja-box-left">
+                    <h1>ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural: <span><em>ninjas</em></span></p>
+                    <button class="like-btn" onclick="alert('Ninja was liked')"><span>37</span> likes</button> <!-- LIKES BUTTON GENERATES ALERT WHEN CLICKED! -->
+                </div>
+                <div class="ninja-box-right">
+                    <h3>A <span><a href="#">programmer</a></span> who breaks <br>down problems with <span><a href="#">zen</a></span>-like <br>focus</h3>
+                </div>
+            </div>
+        </div>
+        <div class="right-column"> <!-- THIS IS THE RIGHT SIDE CONTENT-->
+            <div class="definition-box"> <!-- THIS IS THE RIGHT BOX-->
+                <h2>Dojonary is <br> defined by <span class="bold-text">YOU</span></h2>
+                <button class="add-def-btn" onclick="hide(this)">Add Definition</button> <!-- DELETE THIS WHEN CLICKED IN JS-->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

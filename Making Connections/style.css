@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.mainContainer{
+    height: 800px;
+    justify-content: center;
+    display: flex;
+}
+.navBar{
+    background-color: rgb(50, 54, 54);
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarContent{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 696px;
+    color: white;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+.navlinkcolor{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+#active{
+    font-weight: bold;
+}
+.btn{
+    background-color: rgb(79, 196, 196);
+    color: white;
+    width: 70px;
+    height: 25px;
+    margin-left: 200px;
+}
+.mainContent{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.leftContent{
+    height: 650px;
+    width: 400px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+.rightContent{
+    height: 650px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+/* User ID below this */
+.userCardFrame{
+    width: 400px;
+    height: 270px;
+    /* background-color: lightslategray; */
+    border: 3px solid lightgrey;
+}
+.upperBox{
+    background-color: teal;
+    height: 70px;
+}
+.img1{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left:30px;
+    top: 30px;
+    border-radius: 50%;
+}
+.lowerBox{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 30px; 
+}
+.img2{
+    height: 15px;
+    width: auto;
+}
+.city{
+    font-size: 15px;
+    line-height: 40px;
+}
+.img3{
+    height: 14px;
+    width: auto;
+}
+#educationClassName{
+    font-weight:400;
+}
+#date{
+    color:lightslategray
+}
+.description{
+    font-size: 15px;
+}
+
+/* Education Section Below */
+.userCardFrame_EducationCard{
+    width: 400px;
+    height: 200px;
+    border: 3px solid lightgrey;
+    margin-top: 40px;
+}
+.upperBox_Education{
+    background-color: rgb(50, 54, 54);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.lowerBox_Education{
+    padding: 20px;
+    line-height: 30px;
+}
+.educationHeader{
+    color: white;
+}
+.city{
+    margin-left: 15px;
+}
+#edit{
+    line-height: 50px;
+}
+
+
+
+
+/* Right Side CSS below */
+.frame_ConnectReq{
+    width: 250px;
+    height: 150px;
+    border: 3px solid lightgrey;
+    padding-bottom: 20px;
+}
+.rightSideHeaders{
+    background-color: rgb(50, 54, 54);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.lowerBox_ConnectReq{
+    height: 180px;
+}
+.connectReqHeader{
+    color: white;
+}
+.numConnectReq{
+    background-color:lightgrey;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+/*YOUR REQUESTS SECTION*/
+.frame_YourConnects{
+    width: 250px;
+    height: 328px;
+    border: 3px solid lightgrey;
+    margin-top: 40px;
+}
+.upperBox_YourConnects{
+    background-color: rgb(50, 54, 54);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.yourConnectsHeader{
+    color: white;
+}
+.numYourConnects{
+    background-color:lightgrey;
+    border-radius: 50%;
+    height: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.userImg{
+    height:40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.acceptDeclineBtn{
+    height:30px;
+    margin: 5px;
+}
+.userNames{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+.row{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#todd, #phil{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.viewMoreSection{
+    height: 55px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-top: 3px solid lightgrey;
+    margin-top: 20px;
+}
+.links{
+    font-size: 15px;
+}

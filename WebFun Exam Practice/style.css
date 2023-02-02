@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgrey;
+}
+/* THIS IS THE NAVBAR CONTENT */
+.navbar-container{
+    background-color: gray;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-navbar-area >.cat-img{
+    width: 30px;
+    height: 30px;
+}
+.left-navbar-area{
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-and-go{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 400px;
+    height: 20px;
+    border: 3px solid black;
+}
+.go-btn{
+    width: 35px;
+    height: 20px;
+    background-color: #FD7E14;
+    color: black;
+    box-shadow: 10px solid black;
+}
+.nav-right-buttons{
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* THIS IS THE HEADER 1 CONTENT */
+.header1-container{
+    background-color: white;
+    margin: auto;
+    padding-top: 20px;
+    width: 900px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header1-container > .cat-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+.header1-container > h1{
+    margin-right: 10px;
+}
+.join-btn{
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* THIS IS HEADER 2 CONTENT */
+.header2-container{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 40px;
+    width: 900px;
+    color: black;
+    margin-bottom: 10px;
+}
+.header2-container > a{
+    color: red;
+}
+.header2-container > p{
+    margin-right: 10px;
+}
+/* THIS IS THE MAIN CONTENT */
+
+.main-content{
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+}
+/* LEFT SIDE */
+.left-side{
+    width: 540px;
+    height: 900px;
+    padding-right: 20px;
+}
+.left-top, .left-bottom{
+    height: 300px;
+    width: 540px;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+/* RIGHT SIDE */
+.right-side{
+    width: 340px;
+    height: 900px;
+}
+.about-box, .discord-box, .rules-box{
+    width: auto;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+.about-box{
+    height: 174px;
+}
+.discord-box{
+    height: 124px;
+}
+.rules-box{
+    height: 274px;
+}
+.top-half{
+    background-color: red;
+    color: white;
+    height: 40px;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.bottom-half-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+}
+.bottom-half-1{
+    padding: 20px;
+}
+.bottom-half-3{
+    padding: 20px;
+    padding-left: 40px;
+}
+.discord-btn{
+    border: 3px solid black;
+    width: 320px;
+    height: 30px;
+    border-radius: 5px;
+}
+.bottom-half-1, .bottom-half-2, .bottom-half-3{
+    background-color: white;
+}

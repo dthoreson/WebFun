@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body> 
+    <div> <!-- THIS IS THE MAIN CONTAINER-->
+        <div class="navbar"> <!-- THIS IS THE NAVBAR CONTAINER-->
+            <div class="nav-content">
+                <h1>DojoWeather</h1>
+                <div class="nav-links">
+                    <ul>
+                        <li onclick="alert('Loading weather report...')">Burbank</li>
+                        <li>Chicago</li>
+                        <li>Dallas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-content"> <!-- THIS IS THE HEADER CONTAINER-->
+            <h1 class="regular-size">San Jose</h1>
+            <div class="temp-area">
+                <p class="regular-size">show temperature in </p>
+                <select name="temp-opt" id="temp-opt">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="weather"> <!-- THIS IS THE WEATHER CONTAINER-->
+            <div class="weather-containers">
+                <h2 class="regular-size">Today</h2>
+                <img src="assets/some_rain.png" alt="Some Rain Img">
+                <p>some rain</p>
+                <div class="temps">
+                    <p class="red">24°</p> <!-- LEFT RED TEMP VALUE -->
+                    <p class="blue">18°</p> <!-- RIGHT RED TEMP VALUE -->
+                </div>
+            </div>
+            <div class="weather-containers">
+                <h2 class="regular-size">Tomorrow</h2>
+                <img src="assets/some_rain.png" alt="Some Rain Img">
+                <p>some sun</p>
+                <div class="temps">
+                    <p class="red">27°</p> <!-- LEFT RED TEMP VALUE -->
+                    <p class="blue">19°</p> <!-- RIGHT RED TEMP VALUE -->
+                </div>
+            </div>
+            <div class="weather-containers">
+                <h2 class="regular-size">Friday</h2>
+                <img src="assets/some_rain.png" alt="Some Rain Img">
+                <p>some clouds</p>
+                <div class="temps">
+                    <p class="red">21°</p> <!-- LEFT RED TEMP VALUE -->
+                    <p class="blue">16°</p> <!-- RIGHT RED TEMP VALUE -->
+                </div>
+            </div>
+            <div class="weather-containers">
+                <h2 class="regular-size">Saturday</h2>
+                <img src="assets/some_rain.png" alt="Some Rain Img">
+                <p>some sun</p>
+                <div class="temps">
+                    <p class="red">26°</p> <!-- LEFT RED TEMP VALUE -->
+                    <p class="blue">21°</p> <!-- RIGHT RED TEMP VALUE -->
+                </div>
+            </div>
+        </div>
+        <div class="cookie-container" id="cookiemsg"> <!-- THIS IS THE COOKIE CONTAINER-->
+            <img src="assets/cookie.png" alt="Cooking Img">
+            <div class="cookie-message">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize <br>content and ads to provide social media features and to <br> analyse our traffice. <span><a href="#">Read more...</a></span></p>
+            </div>
+            <button onclick="dismissMe('#cookiemsg')">I Accept</button>
+        </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
