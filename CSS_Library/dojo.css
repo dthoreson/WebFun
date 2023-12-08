@@ -1,0 +1,105 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    color:white;
+    background-color:#2B77E4;
+    box-shadow: 5px 5px 5px black;
+    font-size: 22px;
+    font-weight: lighter;
+    border-width: 3px;
+    height: 45 px;
+    width: 230px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.col,.col-2,.col-3{
+    background-color: rgb(38, 129, 129);
+    color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.col{
+    flex:1;
+}
+
+.col-2{
+    flex:2;
+}
+
+.col-3{
+    flex:3;
+}
+
+.nav{
+    background-color: rgb(67, 60, 60);
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    /* background-color: yellow; */
+    font-size:x-large;
+    flex:3;
+    padding-left: 30px;
+    font-weight:lighter;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    /* background-color: rgb(166, 26, 124); */
+    height: 40px;
+    padding-right: 30px;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.button{
+    background-color: rgb(79, 196, 196);
+    color: white;
+    box-shadow: 2px 2px 1px 1px black;
+    width: 70px;
+    height: 25px;
+}
